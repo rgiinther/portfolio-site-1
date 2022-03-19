@@ -1,0 +1,70 @@
+
+*{
+    background-color:rgba(202, 231, 250, 0.904) ;
+}
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+.header nav{
+ padding-top: 5px;
+ margin-right: 5px;
+ float: right;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 20px;
+}
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px
+    position: absolute;
+    top: 15%;
+
+
+}
+/*Hero section*/
+.self img{
+ width: 25%;
+ position: relative;
+ top: 40%;
+ left: 35%;
+}
+/*end hero section*/
+/*begin About me*/
+.about.me h2{
+    float: left;
+}
+.bio{
+    float: right;
+    
+}
+/*End about me*/
+/* begin right section*/
+.past {
+    float: left;
+}
+.runbuddy img{
+    max-width: 25%;
+    max-height: 20%;
+}
+.contact-info ul li{
+    display: inline-block;
+    float: right;
+    Margin: 20 20 20 10;
+    padding: 20 20 20 10;
+
+}
