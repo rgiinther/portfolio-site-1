@@ -1,13 +1,15 @@
 
 *{
     background-color:rgba(202, 231, 250, 0.904) ;
-}
-.header {
-    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
 }
-
+/*header section*/
+.header {
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -19,74 +21,201 @@
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  font-size: 20px;
 }
-.header nav ul {
+.menu {
     list-style-type: none;
 }
-
-.header nav ul li {
+.menu li {
     display: inline-block;
     margin-left: 25px;
+    font-size: 25px;
 }
 a {
     color: #ffffff;
     text-decoration: none;
-    padding: 15px
-    position: absolute;
-    top: 15%;
-
-
-}
+    padding: 20px
+        top: 15%;}
+/*end Header section*/
 /*self img section*/
 .self img{
  width: 100%;
  max-height: 70%;
+ padding-bottom: 3vh;
  position: relative;
  top: 40%;
 }
 /*end self img section*/
-/* begin left section*/
+/* begin about me section*/
 
 .left1 {
-    border-right-style: solid;
-    border-color: black;
-    width: 20%;
+    width: 9%;
     display: flex;
     justify-content: left;
+    margin-inline-end: 5%;
 }
-.left1 h2{
+.parent{
     display: flex;
-    justify-content: right;
+}
+}
+.div1 {
+    max-width: 80%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.div1 p {
+    width: 100%;
+    display: inline-block;
+    border-left-style: solid;
+    border-color: #ffffff;
+    border-width: .5vh;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+/*end about me section*/
+/* begin work section*/
+.parent2{
+    width: 80%;
+    display:flex;
+    float: right;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-left-style: solid;
+    border-color: #ffffff;
+    border-width: .5vh;
+}
+ a:hover{
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
 }
 .left2 {
-    border-right-style: solid;
-    border-color: black;
-    width: 20%;
+    width: 8%;
     display: flex;
-    justify-content: left;
-    
+    justify-content: left; 
+}
+.div2 img{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    border-style: solid;
+    border-color: grey;
+    border-width: .5vh;
+}
+.div3 img{ 
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    border-style: solid;
+    border-color: grey;
+    border-width: .5vh;
+}
+.old{
+    width:80%;
+    display:inline-block;
+}
+.div4 img{
+    width: 40%;
+    border-style: solid;
+    border-color: grey;
+    border-width: .5vh;
+}
+.div5 img{
+    width: 40%;
+    border-style: solid;
+    border-color: grey;
+    border-width: .5vh;
+}
+.div6 img{
+    width: 100%;
+    border-style: solid;
+    border-color: grey;
+    border-width: .5vh;
+    display: flex;
+   
+}
+.surf{
+    background-color: grey;
+    font-size: 30px;
+    padding: 10px;
+    margin: 2px;
+    position:relative;
+    top: 80px;
+}
+.LED{
+    background-color: grey;
+    font-size: 30px;
+    padding: 10px;
+    margin: 2px;
+    position:relative;
+    top: 80px;
+}
+.calc {
+    background-color: grey;
+    font-size: 30px;
+    padding: 10px;
+    margin: 2px;
+    position:relative;
+    top: 80px;
+}
+.puzzle {
+    background-color: grey;
+    font-size: 30px;
+    padding: 10px;
+    margin: 2px;
+    position:relative;
+    top: 80px;
+}
+.runbuddy {
+    background-color: grey;
+    font-size: 30px;
+    padding: 10px;
+    margin: 2px;
+    position:relative;
+    top: 80px;
+}
+/*end work section*/
+/*contact info section*/
+.parent3 {
+    width: 100%;
+    display: flex;
 }
 .left3 {
-    border-right-style: solid;
-    border-color: black;
-    width: 20%;
+    width: 9%;
     display: flex;
     justify-content: left;
-    
+    margin-inline-end: 4.75%;
 }
-.list ul li{
-    display: inline-block;
-    float: right;
-    Margin: 20 20 20 10;
-    padding: 20 20 20 10;
-}
-/*right section*/
-.div1 {
-    max-width: 25%;
-    max-height: 20%;
-    float: right;
-}
-.bio p{
+.div7 {
+    max-width: 80%;
     display: flex;
-    justify-content: right;
-    width: 80%
+    justify-content: space-between;
 }
+.list {
+    width: 100%;
+    display: inline-block;
+    border-left-style: solid;
+    border-color: #ffffff;
+    border-width: .5vh;
+    padding-left: 3%;
+    padding-right: 3%;
+    list-style-type: none;
+    margin-top: 15px;
+    float: right;
+  
+}
+.list li {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 25px;
+}
+.list ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;  
+}
+@media screen (max-width: 1200px;) 
+    
