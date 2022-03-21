@@ -107,7 +107,7 @@ a {
 
 .newer {
     display: flex;
-    align-items: column;
+    align-items: row;
     align-items: center;
 }
 .div4 img{
