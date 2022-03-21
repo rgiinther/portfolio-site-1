@@ -132,43 +132,48 @@ a {
 }
 .surf{
     background-color: grey;
-    font-size: 30px;
-    padding: 10px;
-    margin: 2px;
+    font-size: 100%;
+    padding: 2%;
+    margin: 2%;
     position:relative;
-    top: 80px;
+    top: 15vh;
+    right: 1.5vw;
 }
 .LED{
     background-color: grey;
-    font-size: 30px;
-    padding: 10px;
-    margin: 2px;
+    font-size: 80%;
+    padding: 4%;
+    margin: 2%;
     position:relative;
-    top: 80px;
+    top: 5vh;
+    right: .1vw;
 }
 .calc {
     background-color: grey;
-    font-size: 30px;
-    padding: 10px;
-    margin: 2px;
+    font-size: 80%;
+    padding: 4%;
+    margin: 2%;
     position:relative;
-    top: 80px;
+    top: 5vh;
+    right: .3vw;
 }
 .puzzle {
     background-color: grey;
-    font-size: 30px;
-    padding: 10px;
-    margin: 2px;
+    font-size: 80%;
+    padding: 4%;
+    margin: 2%;
     position:relative;
-    top: 80px;
+    top: 5vh;
+    right: .3vw;
 }
 .runbuddy {
     background-color: grey;
-    font-size: 30px;
-    padding: 10px;
-    margin: 2px;
+    font-size: 80%;
+    padding: 4%;
+    margin: 2%;
     position:relative;
-    top: 80px;
+    top: 5vh;
+    right: .4vw;
 }
 /*end work section*/
 /*contact info section*/
@@ -196,7 +201,6 @@ a {
     list-style-type: none;
     margin-top: 15px;
     float: right;
-  
 }
 .list li {
     display: inline-block;
