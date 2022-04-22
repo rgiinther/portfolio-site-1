@@ -34,7 +34,8 @@ a {
     color: #ffffff;
     text-decoration: none;
     padding: 20px
-        top: 15%;}
+        top: 15%;
+}
 /*end Header section*/
 /*self img section*/
 .self img{
@@ -55,7 +56,6 @@ a {
 }
 .parent{
     display: flex;
-}
 }
 .div1 {
     max-width: 80%;
@@ -124,6 +124,7 @@ a {
 }
 .div6 img{
     width: 100%;
+    height: 40%;
     border-style: solid;
     border-color: grey;
     border-width: .5vh;
@@ -182,7 +183,7 @@ a {
     display: flex;
 }
 .left3 {
-    width: 20%%;
+    width: 20%;
     display: flex;
     justify-content: left;
     margin-inline-end: 12%;
@@ -222,4 +223,5 @@ a {
         font-size: 50%;
     }
 }
+
     
